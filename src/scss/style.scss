@@ -1,0 +1,32 @@
+@import "fonts";
+
+body {
+font-family: CormorantUpright;
+font-size: 30px;
+background: url(@img/back.png) 0 0 no-repeat;
+}
+h1{
+color: rgb(15, 14, 14);
+}
+h2 {
+color: red;
+}
+#pic{
+display: block;
+width: 400px;
+height: 400px;
+}
+
+@media (max-width: 768px) {
+	h1{
+		color: rgb(235, 23, 23);
+		}
+
+}
+
+@media (max-width: 768px) {
+	h2{
+		color: rgb(11, 11, 11);
+		}
+		
+}
